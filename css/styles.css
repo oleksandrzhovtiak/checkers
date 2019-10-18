@@ -1,0 +1,461 @@
+:root {
+}
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+	transition: all .3s ease-in-out;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+/* Main Styles */
+
+body{
+	background-color: #282828;
+}
+.containet{
+	position: relative;
+	min-width:640px;
+	min-height: 640px;
+	width: 100%;
+	margin: 30px 200px;
+
+}
+img {
+	
+	min-width: 100px;
+	height: 100px;
+}
+
+.str1, div{
+	
+	min-width: 100px;
+	height: 100px;
+}
+
+.str2, div{
+	
+	min-width: 100px;
+	height: 100px;
+}
+
+
+.str1 .black1 {
+position: absolute;
+top:0;
+left:100px;
+background: black;
+}
+.str1 .white1 {
+position: absolute;	
+top:0;
+left:0px;
+background: white;
+}
+.str1 .black2 {
+position: absolute;
+top:0;
+left:300px;
+background: black;
+}
+.str1 .white2 {
+position: absolute;	
+top:0;
+left:200px;
+background: white;
+}
+.str1 .black3 {
+position: absolute;
+top:0;
+left:500px;
+background: black;
+}
+.str1 .white3 {
+position: absolute;	
+top:0;
+left:400px;
+background: white;
+}
+.str1 .black4 {
+position: absolute;
+top:0;
+left:700px;
+background: black;
+}
+.str1 .white4 {
+position: absolute;	
+top:0;
+left:600px;
+background: white;
+}
+
+
+
+.str2 .black1 {
+position: absolute;
+top:100px;
+left:0px;
+background: black;
+}
+.str2 .white1 {
+position: absolute;	
+top:100px;
+left:100px;
+background: white;
+}
+.str2 .black2 {
+position: absolute;
+top:100px;
+left:200px;
+background: black;
+}
+.str2 .white2 {
+position: absolute;	
+top:100px;
+left:300px;
+background: white;
+}
+.str2 .black3 {
+position: absolute;
+top:100px;
+left:400px;
+background: black;
+}
+.str2 .white3 {
+position: absolute;	
+top:100px;
+left:500px;
+background: white;
+}
+.str2 .black4 {
+position: absolute;
+top:100px;
+left:600px;
+background: black;
+}
+.str2 .white4 {
+position: absolute;	
+top:100px;
+left:700px;
+background: white;
+}
+
+
+.str3 .black1 {
+	position: absolute;
+	top:200;
+	left:100px;
+	background: black;
+	}
+	.str3 .white1 {
+	position: absolute;	
+	top:200;
+	left:0px;
+	background: white;
+	}
+.str3 .black2 {
+	position: absolute;
+	top:200;
+	left:300px;
+	background: black;
+	}
+.str3 .white2 {
+	position: absolute;	
+	top:200;
+	left:200px;
+	background: white;
+	}
+.str3 .black3 {
+	position: absolute;
+	top:200;
+	left:500px;
+	background: black;
+	}
+.str3 .white3 {
+	position: absolute;	
+	top:200;
+	left:400px;
+	background: white;
+	}
+.str3 .black4 {
+	position: absolute;
+	top:200;
+	left:700px;
+	background: black;
+	}
+.str3 .white4 {
+	position: absolute;	
+	top:200;
+	left:600px;
+	background: white;
+	}
+
+
+
+	.str4 .black1 {
+		position: absolute;
+		top:300px;
+		left:0px;
+		background: black;
+		}
+		.str4 .white1 {
+		position: absolute;	
+		top:300px;
+		left:100px;
+		background: white;
+		}
+		.str4 .black2 {
+		position: absolute;
+		top:300px;
+		left:200px;
+		background: black;
+		}
+		.str4 .white2 {
+		position: absolute;	
+		top:300px;
+		left:300px;
+		background: white;
+		}
+		.str4 .black3 {
+		position: absolute;
+		top:300px;
+		left:400px;
+		background: black;
+		}
+		.str4 .white3 {
+		position: absolute;	
+		top:300px;
+		left:500px;
+		background: white;
+		}
+		.str4 .black4 {
+		position: absolute;
+		top:300px;
+		left:600px;
+		background: black;
+		}
+		.str4 .white4 {
+		position: absolute;	
+		top:300px;
+		left:700px;
+		background: white;
+		}
+		
+		.str5 .black1 {
+			position: absolute;
+			top:400;
+			left:100px;
+			background: black;
+			}
+			.str5 .white1 {
+			position: absolute;	
+			top:400;
+			left:0px;
+			background: white;
+			}
+			.str5 .black2 {
+			position: absolute;
+			top:400;
+			left:300px;
+			background: black;
+			}
+			.str5 .white2 {
+			position: absolute;	
+			top:400;
+			left:200px;
+			background: white;
+			}
+			.str5 .black3 {
+			position: absolute;
+			top:400;
+			left:500px;
+			background: black;
+			}
+			.str5 .white3 {
+			position: absolute;	
+			top:400;
+			left:400px;
+			background: white;
+			}
+			.str5 .black4 {
+			position: absolute;
+			top:400;
+			left:700px;
+			background: black;
+			}
+			.str5 .white4 {
+			position: absolute;	
+			top:400;
+			left:600px;
+			background: white;
+			}
+
+			.str6 .black1 {
+				position: absolute;
+				top:500px;
+				left:0px;
+				background: black;
+				}
+				.str6 .white1 {
+				position: absolute;	
+				top:500px;
+				left:100px;
+				background: white;
+				}
+				.str6 .black2 {
+				position: absolute;
+				top:500px;
+				left:200px;
+				background: black;
+				}
+				.str6 .white2 {
+				position: absolute;	
+				top:500px;
+				left:300px;
+				background: white;
+				}
+				.str6 .black3 {
+				position: absolute;
+				top:500px;
+				left:400px;
+				background: black;
+				}
+				.str6 .white3 {
+				position: absolute;	
+				top:500px;
+				left:500px;
+				background: white;
+				}
+				.str6 .black4 {
+				position: absolute;
+				top:500px;
+				left:600px;
+				background: black;
+				}
+				.str6 .white4 {
+				position: absolute;	
+				top:500px;
+				left:700px;
+				background: white;
+				}
+				
+
+				.str7 .black1 {
+					position: absolute;
+					top:600;
+					left:100px;
+					background: black;
+					}
+					.str7 .white1 {
+					position: absolute;	
+					top:600;
+					left:0px;
+					background: white;
+					}
+					.str7 .black2 {
+					position: absolute;
+					top:600;
+					left:300px;
+					background: black;
+					}
+					.str7 .white2 {
+					position: absolute;	
+					top:600;
+					left:200px;
+					background: white;
+					}
+					.str7 .black3 {
+					position: absolute;
+					top:600;
+					left:500px;
+					background: black;
+					}
+					.str7 .white3 {
+					position: absolute;	
+					top:600;
+					left:400px;
+					background: white;
+					}
+					.str7 .black4 {
+					position: absolute;
+					top:600;
+					left:700px;
+					background: black;
+					}
+					.str7 .white4 {
+					position: absolute;	
+					top:600;
+					left:600px;
+					background: white;
+					}
+					
+
+					.str8 .black1 {
+						position: absolute;
+						top:700px;
+						left:0px;
+						background: black;
+						}
+						.str8 .white1 {
+						position: absolute;	
+						top:700px;
+						left:100px;
+						background: white;
+						}
+						.str8 .black2 {
+						position: absolute;
+						top:700px;
+						left:200px;
+						background: black;
+						}
+						.str8 .white2 {
+						position: absolute;	
+						top:700px;
+						left:300px;
+						background: white;
+						}
+						.str8 .black3 {
+						position: absolute;
+						top:700px;
+						left:400px;
+						background: black;
+						}
+						.str8 .white3 {
+						position: absolute;	
+						top:700px;
+						left:500px;
+						background: white;
+						}
+						.str8 .black4 {
+						position: absolute;
+						top:700px;
+						left:600px;
+						background: black;
+						}
+						.str8 .white4 {
+						position: absolute;	
+						top:700px;
+						left:700px;
+						background: white;
+						}
+						
